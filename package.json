@@ -1,0 +1,44 @@
+{
+  "name": "development-area",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "NODE_ENV=development nodemon index.js --ignore client/dist/",
+    "build": "webpack --config ./client/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jafarkuku/fuse-features.git"
+  },
+  "author": "Jafar Kuku",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.0",
+    "body-parser": "^1.18.2",
+    "css-loader": "^0.28.7",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "postcss": "^6.0.13",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "style": "0.0.3",
+    "superagent": "^3.7.0",
+    "webpack-css-loaders": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^1.12.1",
+    "postcss-loader": "^2.0.8",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "bugs": {
+    "url": "https://github.com/jafarkuku/fuse-features/issues"
+  },
+  "homepage": "https://github.com/jafarkuku/fuse-features#readme"
+}
