@@ -14,7 +14,7 @@
   "author": "Jafar Kuku",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.17.0",
+    "axios": "^0.17.1",
     "body-parser": "^1.18.2",
     "css-loader": "^0.28.7",
     "ejs": "^2.5.7",
@@ -22,6 +22,7 @@
     "postcss": "^6.0.13",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
+    "request": "^2.83.0",
     "style": "0.0.3",
     "superagent": "^3.7.0",
     "webpack-css-loaders": "^1.0.0"

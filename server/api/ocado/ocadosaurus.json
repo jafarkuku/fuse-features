@@ -1,0 +1,3338 @@
+[
+  {
+    "term": "1550",
+    "meaning": "The main inbound conveyor loop feeding all tote systems in CFC1 (miniload cranes and OSR systems).",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "A&O",
+    "meaning": "Task b",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "ABC",
+    "meaning": "Utopia",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "ACS",
+    "meaning": "Automation Control Software area (also known as the PLC area)\nThe software used to directly control the automation (conveyors, cranes etc) in Ocado CFCs",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "ACT",
+    "meaning": "ACS",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Adaptation Layer",
+    "meaning": "A system to allow non-OSP systems external to the CFC to communicate with OSP style CFCs, as well as potentially to allow CFC1 and CFC2 to communicate with Atmosphere in the future.",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "ADI",
+    "meaning": "Approved Driving Instructor",
+    "tag": "Service Delivery and Human Resources",
+    "": ""
+  },
+  {
+    "term": "Aeris",
+    "meaning": "An OSP branding for UIs.",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "AGV",
+    "meaning": "Automated Guided Vehicle\nSimilar to PPT but automated. Not currently in use anywhere.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "AIS",
+    "meaning": "Atlas Information System\nSee MIS",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Aisle",
+    "meaning": "Section of the website showing a particular group of products e.g. “Baked Beans, Spaghetti & Pasta” (EXAMPLE)",
+    "tag": "Retail",
+    "": ""
+  },
+  {
+    "term": "Allocation",
+    "meaning": "The process of reserving stock within the warehouse to fulfil a customer’s order. If an item is not available then it may be substituted with a similar one. In CFC1 & 2, once an order has been allocated then the picks cannot be changed, they can only be scratched (see: Scratch).",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Aloe",
+    "meaning": "Ocado Contact Centre system",
+    "tag": "Service Delivery",
+    "": ""
+  },
+  {
+    "term": "Aloe (and Vera)",
+    "meaning": "Aloe is Contact Center Database for Ocado and Vera is the similar version for Morrisons side",
+    "tag": "Service Delivery",
+    "": ""
+  },
+  {
+    "term": "Ambient",
+    "meaning": "An area of a CFC or LGV or van where goods that are not required to be kept chilled or frozen are stored",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "AMHSA",
+    "meaning": "Automated Material Handling Systems Association",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "Andromache",
+    "meaning": "An application for providing a single write point into a cassandra cluster. It reads data from RabbitMQ. Newer systems use Adder, which is a web service.",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "AP",
+    "meaning": "Accounts Payable\nThe team who deal with expenses, paying suppliers and other invoices",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "AP",
+    "meaning": "Access Point\nAppointment Number (used when receiving stock into the warehouse) / Access Point (hardware for wireless LAN)",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "Appointment",
+    "meaning": "A group of inbound stock Purchase Orders that appear on the same lorry.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "APR",
+    "meaning": "Ambient Pallet Routing\nA subsystem of the WMS which manages the movement of pallets around the CFC. Only in CFC1.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "ARB",
+    "meaning": "Auto Recovery Bot\nLarger than production and autonomous bot used to recover production bots on the grid while it is live.",
+    "tag": "Rainbow, CFC4 & beyond",
+    "": ""
+  },
+  {
+    "term": "Array",
+    "meaning": "A temporary storage location for an each, or a SKU, before picking it into a customer container.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "ART",
+    "meaning": "Additional Roster Time",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "AS-I Bus",
+    "meaning": "See Profibus",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "ASN",
+    "meaning": "",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "ASOPS",
+    "meaning": "Automatic Storage and Order Picking Systems \nA highly efficient picking system where ST and DT totes are fetched to picking stations in a synchronised way. Current ASOPS systems: OSR1, OSR2 (CFC1) and MASOPS (CFC2).",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "ASOS",
+    "meaning": "Available Source of Supply (RMS terminology) \nIndicates where and how a product is currently sourced (pricing information, supplier, etc.). For a product, at any time there will be a single active ASOS per CFC.",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "ASRS",
+    "meaning": "Automated Storage and Retrieval System (CFC1 only)\nIt is cranes for storage totes, mainly containing products that can either be picked in Chill or Ambient, as it is itself ambient but CFC1 doesn’t pick from STs other than in OSR1, OSR2 and Chill.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Asset Management",
+    "meaning": "An inter-CFC application to manage Totes, Dollies, PPTs and other assets that can be moved between CFCs. In particular, it handles defective dollies.",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "Assets",
+    "meaning": "This term covers all storage containers and totes,  Ifco's, Delivery totes ( DT's), Storage totes ( ST's ), Freezer totes ( FT's )",
+    "tag": "CFCs",
+    "": ""
+  },
+  {
+    "term": "Athena",
+    "meaning": "See Product Slotting.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "ATL",
+    "meaning": "Answer Too Late (from WCS or WMS)\nIn order to maintain flow on conveyors the PLC requires a response from the WCS to a routing request within a fixed amount of time (typically 0.5s) if a response is not received a default action configured within the PLC will be carried out and an ATL reported to the WCS.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Atlas",
+    "meaning": "A real-time in-memory high-level system managing hardware and stock. Contains business logic.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Atmosphere",
+    "meaning": "All of OSP that is not CFC Software (see also Phoenix). Includes Routing and Delivery, Supply Chain, Business Planning, Employee Management and Range Management.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "ATP",
+    "meaning": "Available To Promise (sometimes 'purchase')\nSystem which deals with stock which is considered available for the Webshop.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "ATP",
+    "meaning": "Adenosine Tri-Phosphate \nMSC swabbing",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "ATS",
+    "meaning": "Applicant Tracking System\nUsed by Ocado recruitment teams to manage online job applications",
+    "tag": "Recruitment",
+    "": ""
+  },
+  {
+    "term": "Autoreceiving",
+    "meaning": "The system whereby Freezer inventory is created. Because it would be very labour-intensive otherwise, almost all Freezer Decant happens at a Freezer Warehouse called Theale. Therefore the inventory has already been created before it arrives in the CFC. In OSP-style CFCs this is handled by a special logical zone. (Some inventory in the freezer is picked from pallets.)",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Autostore",
+    "meaning": "The storage system used in NFDC.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Aux Task",
+    "meaning": "Work done that can't be counted with a UPH, like Dry Icing or Cleaning up or reverse flows. Usually the user logs into this using an MIS page rather than through a station or RF gun.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "AZP",
+    "meaning": "Ambient Zone Pick\nThe ambient (room temperature) area of the CFC where items are picked and packed. Can also refer to the ambient pallet crane system",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "BC",
+    "meaning": "Business Central \nterm for Business Support, Business Planning and Supply Chain, General Merchandise, Human Resources, Development and Engineering, Grocery Retail",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "BCR",
+    "meaning": "A barcode scanner (Bar Code Reader).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "BDRC",
+    "meaning": "Belt Driven Roller Conveyor",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Big & Bulky",
+    "meaning": "A process where big and bulky items (eg. 6 packs of 1.5 ltr water) are decanted directly into delivery totes which are then stored until such a tote is required at allocation. It only exists in Dordon, where certain MASOPS-like towers without pickstations are set aside for such DTs.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Big Data (BD)",
+    "meaning": "A collective noun for very large sets of data, typically larger than would traditionally be handled in Data Warehouses.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Big Panda",
+    "meaning": "Relates to PandaSSO deployed on premise. Used to login to google, amazon and other services used inside by Ocado employees",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Big Query (BQ)",
+    "meaning": "A scalable engine built by Google to scan and aggregate data with SQL-like syntax. Used on CDP as a storage for most of the data and also used as a processing engine when suitable.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Blended Learning",
+    "meaning": "A formal education programme in which a student learns, at least in part, through delivery of content and instruction via digital and online media with some element of student control over time, place, path, or pace",
+    "tag": "Learning & Development",
+    "": ""
+  },
+  {
+    "term": "BMT",
+    "meaning": "Business Management Tools",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "BNU",
+    "meaning": "Brave New Universe \nProject methodology whereby Ocado manages mechanical and electrical suppliers, and acts as integrator",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "BNW",
+    "meaning": "fTs and STs are pushed around on such trolleys in the freezer. There are inbound and outbound trolleys.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "BOP",
+    "meaning": "Back of Pack\nOn webshop, a page or UI element which shows all the information we have about a product",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Box",
+    "meaning": "A container that is about half the size of a tote. This is only used in AZP3A and AZP3Z in CFC1 and requires a dedicated conveyor and crane system for transportation (crane 16.1 and 16.2)",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "BPM",
+    "meaning": "Business Project Manager \nAnother term used to refer to Logistics Development project managers",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "BPS",
+    "meaning": "Bag Placement System\nAnother term for one of the three modules that make up a bagging machine.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Brand bank",
+    "meaning": "External company that sends us information on products eg. images and BOPinformation",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Bread Aisle",
+    "meaning": "Only in Dordon (AZP0A). Unlike other aisles, it is replenished entirely by an RF Process. The aisle is deliberately placed near the inbound door so that products with a short shelf life can be put there.",
+    "tag": "CFC Dordon",
+    "": ""
+  },
+  {
+    "term": "BRM",
+    "meaning": "Barcode Read Message",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "BS",
+    "meaning": "Rcom Base Station",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "BTAT",
+    "meaning": "Bigger Than A Tote\nThis refers to items that won't fit in a tote. This is handled in the NFDC using Courier Pick.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Bucket",
+    "meaning": "A segregation of the CFC operating day - by splitting the day into sections, stock that is not in the warehouse at the start of the shift can still be considered available to a later bucket, thus providing a more just-in-time (JIT) relation between incoming stock and fulfilling customer orders.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Budgie",
+    "meaning": "An application that provides a read-only view of JMS hubs for reporting, so that slow reporting consumers don’t endanger the control system",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Buffer",
+    "meaning": "When associated with an ASOPS shuttle is the PnD location for the shuttle that is shared with the lift. The lift drops a tote in one buffer, the shuttles picks from that buffer, the shuttle can drop a tote in a buffer and the lift can pick from that buffer. In zone pick aisles we call this a vPnD but in ASOPS the vendor called it a buffer, so all the documentation uses buffer.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Bulkhead",
+    "meaning": "A lorry that is divided into Chill and Ambient sections by a movable partition (As opposed to a Double Decker trailer, which has Ambient on one level and Chill on the other).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CAL",
+    "meaning": "Chill A loop  \n(not completed yet)",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Campaign manager",
+    "meaning": "A Marketing System used to allocate incentives to customers (e.g. vouchers, Smart Pass discounts).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Catch-Price Barcode",
+    "meaning": "A barcode, usually an EAN, where the price of the each is stored within the barcode.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Catch-Weight Barcode",
+    "meaning": "A barcode, usually an EAN, where the weight of the each is stored within the barcode. Used for products like Cheese.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CB",
+    "meaning": "Counter Balance \nA traditional fork lift truck",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "CBL",
+    "meaning": "Chill B Loop",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CBU",
+    "meaning": "Clutch Brake Unit\nThe powered roller that drives a section of accumulation conveyor (usually around 7 rollers total).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CCL",
+    "meaning": "Chill C Loop",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CCN",
+    "meaning": "Change Control Notification\nProcess with Morrisons for changes",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CDM",
+    "meaning": "Construction (Design & Management)",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CDM boxes",
+    "meaning": "Content Delivery Management boxes\nUnit that compliments scanners at pick stations (processing unit).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CDS",
+    "meaning": "Customer Delivery System \nAnything that involves software for the Drivers & Customer Service Department",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CDS",
+    "meaning": "Container Discovery Service.  It's used when a container hasn't transitioned properly between zones. Specifically it informs us which IDs the container matches up with so that we can match it up with the work we have planned",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CDTTLE",
+    "meaning": "ContainerDeliverToTransitionLocationEvent, it's an event to tell Phoenix where the container is",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CDTTLN",
+    "meaning": "ContainerDeliveredToTransitionLocationNotification Phoenix (N) tells the new zone the container has arrived",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CEG",
+    "meaning": "Capital Expenditure Group",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CES",
+    "meaning": "One of the electrical contractors used by Ocado.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CFC",
+    "meaning": "Customer Fulfilment Centre \nWe currently have three CFCs: Hatfield, Dordon and Andover, and we have a fourth being built in Erith. The CFCs are distribution centres where we pick and pack all our Ocado website customer goods from. We also have a General Merchandising Distribution Centre in Welwyn, where our destination websites 'Fetch' and 'Sizzle' operate from.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "CIMA",
+    "meaning": "Chartered Institute of Management Accounting",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CIP",
+    "meaning": "Construction in progress - asset on the fixed asset register but not yet it use.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CIPD",
+    "meaning": "Chartered Institute of Personnel and Development",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CIT",
+    "meaning": "Component Integration Testing\nBuilt to mimic the live system as closely as possible in terms of architecture and structure",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CITB",
+    "meaning": "Construction Industry Training Board",
+    "tag": "Health and Safety",
+    "": ""
+  },
+  {
+    "term": "Citrix",
+    "meaning": "Gateway to various Ocado applications (remote access to servers)",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CIWP",
+    "meaning": "Can I Wave Plan",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Cloud Data Platform (CDP)",
+    "meaning": "The next generation platform which stores and enables reporting, insight and advanced analytics by the Data Science team on all analytical events of our retailer businesses, i.e. Ocado, Morrisons, and future OSP clients",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CoEx",
+    "meaning": "Customer Order Excellence Team",
+    "tag": "Ocado Operations",
+    "": ""
+  },
+  {
+    "term": "Container",
+    "meaning": "E.g. a bin, Rainbow Tote, Delivery Tote, Freezer Tote etc.",
+    "tag": "Rainbow",
+    "": ""
+  },
+  {
+    "term": "Container (Dash Container)",
+    "meaning": "Software interface to Dash Controller, and associated team",
+    "tag": "Rainbow",
+    "": ""
+  },
+  {
+    "term": "Container Load",
+    "meaning": "Putting a container in another container.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Container Position",
+    "meaning": "Where in a container inventory or another container is. Bags in DTs are container positions, with a position for the wine cooler another position under the bags. Slots for totes in trolleys and dollies are also positions. Some containers (eg pallets) trivially contain one position for the entire container.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "COP",
+    "meaning": "Customer order processor. \nIt's a main component responsible for outbound route processing, it allocates stock for routes, creates tasks for warehouse zones and coordinates container moves.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "COW",
+    "meaning": "Check Out Walk\nThe steps a customer goes through during the checkout process",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CP",
+    "meaning": "Customer Pack - see MSC Containers",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CR",
+    "meaning": "Customer Route\nSecondary physical parking/staging locations in Tote Buffer/Dispatch areas",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "CR",
+    "meaning": "Change Request\nA means of logging and tracking information related to a change to any system. Used to control the implementation of changes.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Crane",
+    "meaning": "Automation within Ocado CFCs to transports Totes, Pallets, Trays or Boxes from Inbound to Storage or Pickface locations. Typically a single crane will operate in an aisle serving a number of floors and pickfaces but in some areas two cranes per aisle are used.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CRM",
+    "meaning": "Candidate Relationship Management\nA system to assist recruiters in managing communications with job applicants.",
+    "tag": "Recruitment",
+    "": ""
+  },
+  {
+    "term": "CSB",
+    "meaning": "Company Sickness Benefit",
+    "tag": "HR",
+    "": ""
+  },
+  {
+    "term": "CSCS",
+    "meaning": "Construction Skills Certification Scheme",
+    "tag": "Health and Safety",
+    "": ""
+  },
+  {
+    "term": "CSI",
+    "meaning": "Conveyor System Integration \nConveyor supplier. Most conveyors are now supplied by TGW instead.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CSTM",
+    "meaning": "Customer Service Team Member\nOur CSTMs are our delivery drivers responsible for delivering our customers' order to their doors within a timed delivery slot.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "CTP",
+    "meaning": "Chill Trolley Picking",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CTR",
+    "meaning": "Click Through Rate",
+    "tag": "Grocery Retail/General Merchandise",
+    "": ""
+  },
+  {
+    "term": "Cubing",
+    "meaning": "Process owned by the CFC that calculates how items should be picked into totes. i.e. in which order, using how many totes. See also: pre-cubing.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Cutover",
+    "meaning": "Attaching equipment to a conveyor system that is already live",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "CZP",
+    "meaning": "Chill Zone Pick\nThe chilled area of the CFC where items are picked and packed",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "D2D",
+    "meaning": "Direct to Spoke \nThe business process of shipping NF items direct to a spoke instead of first merging at a CFC",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "DA",
+    "meaning": "Deed of Appointment (or Design Appointment)\nThe Legal document used to appoint consultants when designing MHE or properties for Ocado",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "DAO",
+    "meaning": "Data Access Object \nA class in an application which represents a piece of data in a database.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Data Lake",
+    "meaning": "A synonym for the storage component of the Cloud Data Platform, which includes both BigQuery and Google Cloud Storage",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Data Registry",
+    "meaning": "The single source of truth for all metadata and definitions relating to derived and reporting objects for all of our retailers, i.e. Ocado, Morrisons and future OSP clients",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "DB",
+    "meaning": "Database",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "DB",
+    "meaning": "Distribution Board\nAn electrical cabinet housing the electrical infeed and circuit breakers for devices in an area.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "DBA",
+    "meaning": "Database Administrator",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "DD",
+    "meaning": "Double Decker \nRelates to LGVs with an upstairs and a downstairs",
+    "tag": "Service Delivery",
+    "": ""
+  },
+  {
+    "term": "DD",
+    "meaning": "Delivery Date\nThe date on which the customer will receive the shopping",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "Decant",
+    "meaning": "The process of moving stock from pallets into totes. Sometimes used to refer to the zone in the CFC where decanting occurs. A single decant is a type of inventory move. (In CFC1 this also uses trays and boxes.)",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "Dekit",
+    "meaning": "The process of removing used bags, returned stock, etc. from delivery totes that have returned to the CFC after a delivery. Also used to refer to the area of the CFC where this process occurs, and sometimes the materials that are removed from the tote. Also used to describe the process of removing totes from a van and preparing them for re-induct (verb)",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "De-Kit",
+    "meaning": "When used as a verb, refers to the unloading of delivery totes that have come back to CFCs at the end of a delivery route.\nWhen used as a noun, refers to the area of the CFC where unloading takes place",
+    "tag": "CFC Operations and Service Delivery",
+    "": ""
+  },
+  {
+    "term": "Derived Objects",
+    "meaning": "Any piece of transformed data, whether the input source are raw events or static data, which is \"clean\" and clearly defined, and can be used for reporting or analytical purposes. The Data Engineering team are creating these initially.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Destination Site",
+    "meaning": "The sites owned by Ocado that are not ocado.com. Currently we have fetch.co.uk, sizzle.co.uk and fabled.com.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Detrash",
+    "meaning": "The removal of cardboard and plastic from a location.  This is a manual task that is carried out by PS. It is a task that helps keep the area tidy and enables people to pick at a more effective rate.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "DIM",
+    "meaning": "Destination Message",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Direct",
+    "meaning": "If the supplier is the retailer itself, the supplier is considered “direct”. For instance, if we have an Appointment with Morrisons inventory which is also retailed by Morrisons. This is used to determine how long we can leave appointments open for.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Dispatch",
+    "meaning": "Taking frame loaded dollies and putting them on vehicles. It is made up of Inside Marshalling, Outside Marshalling and Vehicle Loading. It is an RF Process.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "DL",
+    "meaning": "Delivery Bag (Freezer)",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "DM",
+    "meaning": "Demand Manager Job title in Supply Chain.  The job holder is responsible for balancing product ordering to ensure that the SKU is ATP (available to promise) for our customers but not too much to minimise purge as well as liaison with suppliers, collaborating with inbound and with payables.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "DN",
+    "meaning": "Development Notification\nA document shared with Morrisons to explain new developments being made available to Ocado and Morrisons",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Dolly",
+    "meaning": "Metal frames into which DTs and FTs are loaded with totes to be put into vehicles. External totes also arrive from the NFDC in dollies. Traditionally, there are two ambient and two chill dollies in each route and 20 totes in each dolly (but in non-UK CFCs this may be different). They tend to have LPNs starting with DX. Also varyingly referred to as frames, cages, rollcages.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "DP/DP coupler",
+    "meaning": "A device used to connect two Profibus devices (such as PLCs) and enable communications between them.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "DPV",
+    "meaning": "Drops per Van \nThe number of stops for a particular van on its route. A key metric that the business seeks to maximise",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Drop",
+    "meaning": "A shopping delivery to a customer on a route.",
+    "tag": "Service Delivery",
+    "": ""
+  },
+  {
+    "term": "Dry Icing, Dry Ice Dosing",
+    "meaning": "Dry ice in three dosages (small / medium / large) put into bagged FTs when they are picked.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "DS",
+    "meaning": "Data Science / Scientist. See also PDS = Platform Data Scientist and RDS = Research Data Scientist.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "DSE",
+    "meaning": "Display Screen Equipment - Standards for employee working environment",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "DSS",
+    "meaning": "Desktop Support Services\nThe team in Technology for everyday IT issues based in CFC1, CFC2, CFC3 and Head Office (Trident Building 2)",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "DT",
+    "meaning": "Delivery Tote\nA tote in the outbound process which will contain items for delivery to a customer (sometimes referred to as a pick tote if there are outstanding picks for it).\n Delivery totes are red.",
+    "tag": "CFC Operations and Service Delivery",
+    "": ""
+  },
+  {
+    "term": "DTM",
+    "meaning": "Delivery Tote Machine\nCombined TIM (Tote In Machine) and TOM (Tote Out Machine) machine within Rainbow system.",
+    "tag": "Rainbow, CFC4 & beyond",
+    "": ""
+  },
+  {
+    "term": "DTM",
+    "meaning": "Development Team Manager",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "DTS",
+    "meaning": "Direct to Spoke",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "DWH",
+    "meaning": "Data Warehouse\nA database system used to store and archive historical data. Also the team that maintains this.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Each",
+    "meaning": "An item that can be picked in the CFC; a single item of stock; a product item. Product or unit. Often used as “We sold 3 eaches last week”, or “The average number of eaches per basket is down 0.5”",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "EAN",
+    "meaning": "European Article Number\nA product identification number, normally encoded as a 13-digit barcode, that is an internationally unique ID for a product.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "ECD",
+    "meaning": "Exhaust Cloaking Device \nA shield fitted to LGV tractor units with snorkel exhausts to encourage any emissions away from the cab of the tractor unit",
+    "tag": "Fleet",
+    "": ""
+  },
+  {
+    "term": "ECO",
+    "meaning": "Empty Container Outflow",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "ECS",
+    "meaning": "Electrotechnical Certification Scheme",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "EMS",
+    "meaning": "Employee Management Systems\nResponsible for handscanners, Miocado and timesheets.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Emu",
+    "meaning": "See Oversight",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "EPM",
+    "meaning": "Engineering Project Manager\n(Usually) the Engineering lead on a project (see also BPM).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "EPM",
+    "meaning": "Engineering Project Manager",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "EPS",
+    "meaning": "Employee Planning Systems",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "EPT",
+    "meaning": "Electric Pump Truck",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "ESL",
+    "meaning": "Our 3rd party payroll company who you will receive your payslips from via email",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "E-stop",
+    "meaning": "Emergency Stop",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "ETL",
+    "meaning": "Extract, Transform and Load",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "ETP",
+    "meaning": "Extended Trolley Pick",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Event Processor/Event Receiver",
+    "meaning": "Used by Inbound Atlas to communicate between the WMS and Atlas.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "External Totes",
+    "meaning": "The process whereby totes from the NFDC arrive in the CFC to be combined with CFC totes into dollies.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "FAT",
+    "meaning": "Factory Acceptance Testing\nThe process of testing a physical product (usually from a third party) before it is delivered, to ensure it is operating fundamentally as expected",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "FDS",
+    "meaning": "Functional Design Specification",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Fenrir",
+    "meaning": "The Routing optimiser, part of Loki maintained by the Routing part of LMS. This optimises van routes for drive times (as calculated by Odin), volumes and the like.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "FL",
+    "meaning": "Frame Loaded / Frame Loader \nA frame loader's role is to load totes to frames that are put into vans/trailers",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "Flow Monitor",
+    "meaning": "Application used to monitor tote throughput and picking in the Outbound part of the CFC.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "FLT",
+    "meaning": "Forklift Lift Truck",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Flux",
+    "meaning": "A monitoring application used in Webshop (and other parts of Atmosphere?)",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "FM",
+    "meaning": "Flow Manager",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "FM Global",
+    "meaning": "ods",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "FMS",
+    "meaning": "Fleet Management System\nA System used to see the vans that are on and off the road at all sites. Also used for raising defect, monitoring services and regular cleaning of each vehicle. Also used to complete incident reports and hold ocument vehicles.",
+    "tag": "Service Delivery / Fleet",
+    "": ""
+  },
+  {
+    "term": "FOP",
+    "meaning": "Front of Pack\nOn Webshop, the UI element which shows a picture of a product and some basic information about it.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Frame Positioning",
+    "meaning": "The decision as to how to order stock in a dolly so that it is not top-heavy or dangerous to lift. In CFC1&2 this is part of the tote buffer, in OSP-type CFCs it is a WMS function.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Frameload",
+    "meaning": "The area or process of loading totes that are ready for delivery into dollies (or “frames”) ahead of loading onto a van for delivery. It is an RF Process. A single frame load of a container into another container is a type of Container Load",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "FRC",
+    "meaning": "Flow Rate Control\nThe point at the entrance to a pick aisle at which totes will be held until the aisle is sufficiently empty for the totes to be released",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Freezer Trolley",
+    "meaning": "FTs and STs are pushed around on such trolleys in the freezer. There are inbound and outbound trolleys.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "FT",
+    "meaning": "Freezer Tote\nSame as DT but contains Freezer items only and will contain items for up to 3 orders (3 customers), 1 order per bag. This necessitates each bag to be considered a distinct container (a DL or freezer bag) in a way not so for other containers.\nFreezer totes are blue.",
+    "tag": "CFC Operations and Service Delivery",
+    "": ""
+  },
+  {
+    "term": "FTP",
+    "meaning": "Freezer Trolley Pick",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "FTP",
+    "meaning": "File Transfer Protocol",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Function Block",
+    "meaning": "STL - One of the programming formats used when programming PLCs via Step 7. Other include Ladder Logic, STL and SCL",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Fuzzy Picking",
+    "meaning": "Optimised picking process where items in one pick station zone that is very busy can be picked from an adjoining station that has less work queued up.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Fuzzy Zone",
+    "meaning": "As a customer you could possibly be in multiple zones, each customer has a primary zone. Fuzzy zoning allows for more optimal route planning by allowing customers to move between zones.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "FZ",
+    "meaning": "Freezer \nAn enclosed section of the CFC kept at -25C. It uses trolley pick.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Gazelle",
+    "meaning": "See Oversight",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "GC",
+    "meaning": "Group Control",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "GM",
+    "meaning": "General Merchandise\nGeneral Merchandise is a division in Ocado",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "GM",
+    "meaning": "General Manager \nGeneral Manager is a job title in CFC Operations and Service Delivery",
+    "tag": "CFC Operations and Service Delivery",
+    "": ""
+  },
+  {
+    "term": "GMDC",
+    "meaning": "General Merchandise Distribution Centre \nThis is the place where General Merchandise (aka Non Food) items are stored and picked for all Ocado customers. It is located in Welwyn Garden City, Hertfordshire.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Google Cloud Storage",
+    "meaning": "GCS - Google's version of block storage (like S3 is in Amazon-land), a cornerstone of the Ocado Data Lake and Cloud Data Platform",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "GRAF",
+    "meaning": "Grid rapid access frame - used in CFC Andover",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "Grapevine",
+    "meaning": "The Grapevine is our company intranet site. It is a hub for the latest Ocado news, business developments and useful employee information. Go directly to it by clicking the link on the left.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "GRC",
+    "meaning": "Gravity Conveyor",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Greenplum",
+    "meaning": "A old database containing Web Analytics Data, this is being replaced by BigQuery",
+    "tag": "Retail",
+    "": ""
+  },
+  {
+    "term": "Grid-to-Grid (G2G)",
+    "meaning": "Are bits of conveyor for moving bins between the ambient and chill grids. Normally this is to balance routes by moving totes from Ambient to Chill (occasionally it's the other way around), and sending empty containers back the other way so we have the correct number of bins in each zone.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "GUI",
+    "meaning": "Graphical User Interface\nThe screen Personal Shoppers receive instructions on while picking/decanting",
+    "tag": "CFC Operations, General Merchandise",
+    "": ""
+  },
+  {
+    "term": "Gun Cage / Central Stores",
+    "meaning": "A central location in the CFC where uniform can be ordered, radios can be collected, batteries changed, ID cards created, forms are located and much more",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "H&S",
+    "meaning": "Health and Safety",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "HACCP",
+    "meaning": "Hazardous Analysis and Critical Control Points",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Hard limit",
+    "meaning": "The day’s/week’s operational limit on the number of orders we can sell. This is determined by CFCpicking capacity and the CSTMand Personal shopper labour.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Hawk",
+    "meaning": "See SCADA",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Hazmat",
+    "meaning": "Hazardous Materials",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Heartbeat",
+    "meaning": "A principle that applications should periodically send JMS messages to show they are online, as well as a library to allow this in classic control systems. In OSP-style CFCs, the /health-check URL is used for a similar purpose.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Hexagon",
+    "meaning": "A modular, themable collection of components for modern browsers.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "HMI",
+    "meaning": "Human Machine Interface\nUsually used to refer to the physical controls for an item of mechanical equipment (eg a GUI)",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "HMP",
+    "meaning": "Like Mercury, but for MASOPS shuttles.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "HR",
+    "meaning": "Human Resources",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "HRSS",
+    "meaning": "HR Shared Services\nHR Team who answer all employee queries via hr_queries@ocado.com or 01707 228049 as well as look after all HR admin",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "HS&E",
+    "meaning": "Health, Safety & Environment",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "HSE",
+    "meaning": "Health & Safety Executive",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "HVAC",
+    "meaning": "Heating, Ventilation and Air Conditioning\nHeating and air conditioning for Ocado buildings",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Hypermarket",
+    "meaning": "Non Food items sold via Ocado.com - picked at NFDC and merged into the customer's order at the CFC.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "I/O",
+    "meaning": "Input / Output",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "IASM",
+    "meaning": "Intelligent Accumulating Sensing Module",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "ICIT",
+    "meaning": "Inter-CFC Inventory Transfer\nA system that is used to transfer inventory between UK Live CFCs",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "ID Card",
+    "meaning": "Identity Card\nThe photographic identity card provided to all employees for security and access control",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Identity",
+    "meaning": "Application which deals with customer data. Used for registration and customer detail management by non-food, and being adopted by webshop.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "IDG",
+    "meaning": "Inbound Decant GUI \nThe application used at specific stations for decanting.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "IEMA",
+    "meaning": "Institute of Environmental Management and Assessment",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "IFCO",
+    "meaning": "Green collapsible storage boxes/folding trays used to carry products in CFC1. IFCO is the brand, IFCO Systems is the manufacturer",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "IFRC",
+    "meaning": "Intelligent Flow Rate Control\nThe system used to control the number of totes that are allowed into an aisle at a particular point in time.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "IM",
+    "meaning": "Inside Marshal (CFC Dispatch) \nResponsible for preparing loaded dollies from frameload for dispatch in trailers and vans.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "IME",
+    "meaning": "Inventory Move Event",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "IMS",
+    "meaning": "Inventory Management Station\nRainbow peripheral to enable dealing with all stock issues, purge etc.",
+    "tag": "Rainbow, CFC3 & beyond",
+    "": ""
+  },
+  {
+    "term": "Inbound",
+    "meaning": "The part of the CFC operation involved in receiving incoming stock and storing it in crane systems ready for the outbound operation.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Induction Point",
+    "meaning": "See Profibus",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "IOSH",
+    "meaning": "Institute of Ocupational Safety and Health",
+    "tag": "Health and Safety",
+    "": ""
+  },
+  {
+    "term": "IRP",
+    "meaning": "Inbound Resource Planning \nThe process of determining people and machine resources required to handle the inbound operation.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "ISTM",
+    "meaning": "Inventory Support Team Member\nSomeone responsible for the operation in a particular area of the CFC. Specifically, ISTMs are responsible for inventory adjustments and pick skips.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "ITB / In the bag",
+    "meaning": "Checked out but not yet delivered.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "ITL",
+    "meaning": "Inventory Transaction Log \nRefers to the INVENTORY_TRANSACTION table in the WMS database used to record all events which happen to inventory.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "ITPM",
+    "meaning": "IT Project Manager",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "IYF",
+    "meaning": "Import Your Favourites \nFeature that allows new users to import their favourites from other websites",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "JB",
+    "meaning": "Junction Box \nAn electrical component of conveyor systems",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "JBP (Joint Business Plan)",
+    "meaning": "Agreed funding with suppliers for things such as bannersand sampling.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Juice",
+    "meaning": "Juice is our employee magazine which is produced every two months. You can see back copies by clicking on the link on the left.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Kale",
+    "meaning": "Kale is a back office application which is used to manage aspects of the webshop",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "KBS",
+    "meaning": "Manufacturer of pick-to-lights (PTLs) in CFC1 and CFC2. The entire control system is referred to by the Helpdesk as KBS.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "KPI",
+    "meaning": "Key Performance Indicator\nA method of tracking or measuring the progress of a system or business target",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "KUDU",
+    "meaning": "The pick station team",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "KVI",
+    "meaning": "Key Volume Indicator",
+    "tag": "Grocery Retail/General Merchandise",
+    "": ""
+  },
+  {
+    "term": "KVM",
+    "meaning": "Keyboard, Video and Mouse switch \nUsed to enable one set of peripherals to be connected to multiple terminals.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "L&D",
+    "meaning": "Learning and Development",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "LAC",
+    "meaning": "Local Area Control",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Ladder",
+    "meaning": "Language used to program PLCs. Some PLCs also use STL.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Ladder Logic",
+    "meaning": "One of the programming formats used when programming PLCs via Step7. Others include STL, Function Block and SCL",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "LGRV",
+    "meaning": "Large bot used to recover production bots on the grid while it is live and for other maintenance works above the grid.",
+    "tag": "Rainbow, CFC4 & beyond",
+    "": ""
+  },
+  {
+    "term": "LGV",
+    "meaning": "Large Goods Vehicle\nAn LGV driver safely delivers the customer orders to each spoke in time for the appropriate customer delivery slots.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Light Gateway",
+    "meaning": "See Pick-by-light.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "LIHP",
+    "meaning": "Logged In Home Page",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "LIS",
+    "meaning": "Sometimes used to refer to the WMS database (after the company that originally supplied it: Logistics & Industrial Systems Ltd).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "LM2",
+    "meaning": "Last Mile 2  \nProject to develop the next CFC",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "LMS",
+    "meaning": "Last Mile Solutions \nA very old name for Ocado, this is why the work access group is called LMS. This now refers to an IT department called Last Mile Systems; encompassing Routing, Delivery, Marketing, Order Management and others. Last Mile has also been chosen as a generic namespace for stuff that will be served to Ocado Retail and Morrisons.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Loc Issue",
+    "meaning": "When a pallet cannot be put away due to a location issue",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Locked",
+    "meaning": "If a location can’t have containers added to or removed from it due to a physical fault, it is considered Locked. A location that cannot have containers added is considered InLocked; one that cannot have them removed is considered OutLocked.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Logdev",
+    "meaning": "Logistics Development",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Logit",
+    "meaning": "Java library used to send logs from java applications using logback or log4j to logstash.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Loki",
+    "meaning": "The delivery routing system which provides slot booking service to the Webshop. Also the name of the infrastructure used by Routing, Delivery, Order Management and Courier Management Systems.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "LOLER",
+    "meaning": "Lifting Operations & Lifting Equipment Regulations",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Long Loop",
+    "meaning": "Routing logic within CFC zone pick floors which is invoked during times when maximum capacity is required.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "LOS",
+    "meaning": "Log Out Shopping",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Loyalty stamps",
+    "meaning": "A Marketing campaign where a customer is rewarded if they shop X times within Y weeks.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "LPN",
+    "meaning": "License Plate Number\nA barcode value often used in reference to a tote ID, or a van numberplate. It is different from the Container ID; the Container ID is used for planning work (picks, loads etc) against a systemic container that might not exist yet. It only lasts for one Outbound Day. An LPN is the barcode on the container itself and refers to the physical container.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "LPP",
+    "meaning": "Low Price Promise \nWe promise to match prices on any Tesco product that we also sell. If we turn out to be more expensive for that product, we will send the customer a voucher for the difference.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "LPT",
+    "meaning": "Long Pallet Truck",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "Luna",
+    "meaning": "The term referred to for our employees that are paid for weekly",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Mancom",
+    "meaning": "Ocado Management Committee\nThis refers to the Ocado group of Directors who lead our business.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Manufacture",
+    "meaning": "One act to cut up some meat or fish in the MSC; more generally an act to combine eaches of one or more (primal) sku and create eaches of another (derivative) sku. In other countries this could be generalized to other purposes eg a bakery zone.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Marshalling",
+    "meaning": "The part of Dispatch that groups frameloaded dollies according to what vehicle they need to go onto. This is potentially nontrivial, when the ambient and chill zones empty at different rates.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Media Manager",
+    "meaning": "System used to record funding.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Mercury",
+    "meaning": "Newer control protocol used to communicate with PLCs (replacing SCALP). It is used for all MHE in CFC2, apart from MASOPS Shuttles which use HMP.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Mercury",
+    "meaning": "Also a transactional email communications application used to send emails about customer orders and accounts (registration, receipts, etc) in the “live” UK system.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Mercury",
+    "meaning": "A messaging protocol used for communications between PLC and WCS.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Metis",
+    "meaning": "Our in-house rostering system. Time and Attendance system used across hourly paid employees (replaced SMART)",
+    "tag": "CFC Operations, General Merchandise and Service Delivery",
+    "": ""
+  },
+  {
+    "term": "MFD",
+    "meaning": "Multi Functional Device\nPhotocopiers with the ability to copy, print and scan",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "MHE",
+    "meaning": "Materials Handling Equipment (also Mechanical Handling Equipment)\nUsed for moving totes around the CFC includes automated cranes and conveyors. Also used to refer to the subsystem in the WMS that manages cranes and conveyors.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "Midas",
+    "meaning": "Midas is a back office application which is used to manage aspects of the webshop",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "MiJourney",
+    "meaning": "MiJourney is our online Appraisal tool used mainly by Head Office employees",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "MiLearning",
+    "meaning": "MiLearning is an Ocado-developed google site, which aims to provide a dynamic ‘one-stop shop’ for learning at Ocado. Find out more by clicking on the link on the left.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Mimir",
+    "meaning": "A system for visualizing Outbound Zonepick. Currently (Aug 2015) uses DirectX - may be rewritten to use Unity? Written in C# and can be scripted using IronPython.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "MiniM",
+    "meaning": "Used to test user processes. It mocks out the RF server and shows what all the users are currently doing on a GUI.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "MiOcado",
+    "meaning": "MiOcado is the place where Personal Shoppers, LGV Drivers and CSTMs can view roster information, book holidays etc",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "MIR",
+    "meaning": "Minor Incident Report",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "MIS",
+    "meaning": "Management Information System (also AIS: Atlas Information System) \nWeb applications that are used to report on and manage the CFC operation. Divided into “Green MIS” which is for reporting and “Red MIS” which is used for admin (and can do more dangerous things).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "MiSC",
+    "meaning": "Metamorphosis Support Crew",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "MOQ",
+    "meaning": "Minimum Order Quantity",
+    "tag": "Supply Chain",
+    "": ""
+  },
+  {
+    "term": "MRB",
+    "meaning": "Manual Recovery Bot\nLarge bot used to recover production bots on the grid and for other maintenance works above the grid.",
+    "tag": "Rainbow, CFC3 & beyond",
+    "": ""
+  },
+  {
+    "term": "MRTP",
+    "meaning": "Manual Replenishment Trolley Pick",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "MSC",
+    "meaning": "Manual Service Counter\nThe area in the CFC where items are manually prepared for a customer such as butchery and fishmongery",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "MSC Containers",
+    "meaning": "There are CP (Customer Pack) containers - what we send to the user, UP (Unopened Pack) which contains sealed inbound product and OP (Opened Pack) which contains inbound meat/fish that has been opened and started being cut up (this reduces the shelf life).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "MTBF",
+    "meaning": "Mean Time Between Failures",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "MTTR",
+    "meaning": "Mean Time To Repair",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "MVIR",
+    "meaning": "Motor Vehicle Incident Report",
+    "tag": "Service Delivery",
+    "": ""
+  },
+  {
+    "term": "NCL",
+    "meaning": "Notify Container Location\nMessage sent between WCS/Atlases containing a container's location e.g. when a container reaches a decision point or barcode reader.",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "NDA",
+    "meaning": "Non-Disclosure Agreement\nUsed to prevent information about Ocado from being leaked to other sources",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "NDE",
+    "meaning": "Nothing Done Events",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "NEBOSH",
+    "meaning": "National Examination Board Occcupational Safety and Health",
+    "tag": "Health and Safety",
+    "": ""
+  },
+  {
+    "term": "NEL",
+    "meaning": "Narrow Edge Leading. Some departments use this terminlogy to describe Rainbow Decant stations to distinguish between the different styles and orientation of the travelling totes",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "NEOB",
+    "meaning": "New and Obsolete: it is the method sed to restrict movement of stock when a product withdrawal is required",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "NetApp",
+    "meaning": "A fileserver which has very high levels of availability - used to provide storage for database systems and network storage.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Netnix",
+    "meaning": "The IT team that looks after the Network and UNIX systems.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "NFDC",
+    "meaning": "Non Food Distribution Centre \nThe warehouse in Welwyn",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "NOA",
+    "meaning": "Notification of Absence\nEither a form or email sent to the relevant HR/Resource Planning team (depending on where you work) when you have notified Ocado you will not be coming into work",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "NoRead",
+    "meaning": "The event where a container passes a barcode scanner and the scanner fails to read the barcode.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "NPD (New Product Development)",
+    "meaning": "New products to be launched by suppliers.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "NVW ATP",
+    "meaning": "Non weighted ATP",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Ocado Citizenship Code",
+    "meaning": "Explains our values and principles and can be viewed by clicking on the link on the left.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Ocean",
+    "meaning": "Ocado's software solutions that run and support CFC1 and CFC2.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "ODD",
+    "meaning": "Ocado Delivery Device \nThe CSTM delivery software written internally to run on the U1s - this uses a satnav provided by NavMii",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Odin",
+    "meaning": "Pather - Part of Loki maintained by Geo in LMS, this does the calculation of drive times between points.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "ODP",
+    "meaning": "Ocado Delivery Pass",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "ODS",
+    "meaning": "Operational Data Store\nA data warehouse db.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Office Enablement Department",
+    "meaning": "Is made up of the Facilities Team, Reception Team, Mail Room Teams and Shuttle Bus Services. Provides services that assist staff in their day to day functions.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Olive",
+    "meaning": "Online Supplier Portal",
+    "tag": "Grocery Retail/General Merchandise",
+    "": ""
+  },
+  {
+    "term": "OM",
+    "meaning": "Operations Manager",
+    "tag": "Service Delivery",
+    "": ""
+  },
+  {
+    "term": "OM",
+    "meaning": "Outside Marshal \nWorking in the CFC dispatch area, this role handles returning dekit and dolly delivery to frameload",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "OM",
+    "meaning": "Order Management",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "OMD",
+    "meaning": "Order Management and Delivery\nRefers to any system involved in the fulfillment of an order before and after it goes to a CFC",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "OOD",
+    "meaning": "Ocado On Demand \nOld name for Ocado delivery pass",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "OOS",
+    "meaning": "Out Of Stock",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "OP",
+    "meaning": "Open or Opened Pack \nSee MSC Containers",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "OPE (One Page Event)",
+    "meaning": "A One Page Event is where all products displayed are categorised into lines based on a common feature between them all. For example all oranges appear on one line.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "OpEx",
+    "meaning": "Operational Excellence Team",
+    "tag": "Ocado Operations",
+    "": ""
+  },
+  {
+    "term": "OPW",
+    "meaning": "Orders per Week\nMeasure of throughput",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "ORBS",
+    "meaning": "Ocado Route Balancing System",
+    "tag": "ORBS",
+    "": ""
+  },
+  {
+    "term": "Order Line",
+    "meaning": "OL - all the stock in an order for a given sku. If not enough stock is available for the SKU chosen by the customer, this may be a Substitute Order Line.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Order, CO",
+    "meaning": "Sometimes called a Customer Order to avoid confusion with Purchase Order. An order for a customer.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "OSP",
+    "meaning": "Ocado Smart Platform \nOSP is our end-to-end software and technology systems together with our physical CFC equipment. It's modular and can be build to almost any size. It's scaleable and can be built in multiple phases. It requires less space than the CFC kit we currently use in Hatfield and Dordon. It's fast to deploy and even more efficient in terms of capital and operating costs. The idea is that a business can buy what it needs and it can grow with them.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "OSR",
+    "meaning": "Order Storage Retrieval\nMethod of picking and packing where the items are brought to you by the system; a large system of conveyor, lifts, cranes and picking stations used to efficiently handle low-velocity products (those of which we sell far fewer than most products). This is the oldest ASOPS system in Ocado (CFC1), and is controlled by WMS.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "OSR2",
+    "meaning": "Order Storage Retrieval v2 \nA larger system of conveyor, lifts, cranes and picking stations used to efficiently handle low- to medium-velocity products (those of which we sell fewer than most products). This is an ASOPS system in CFC1, controlled by Atlas. It is almost exactly like MASOPS, except without storage towers and the supercontroller.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "Out of Hours Cards",
+    "meaning": "Individual cards per building which provide access via the access control terminal when the buildings are not manned with Security Guards",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Outbound",
+    "meaning": "The part of the CFC operation involved in picking customer orders through to loading vans and trailers: all warehouse operations from collecting SKU from storage until delivery",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Oversight",
+    "meaning": "A monitoring application used in CFC systems. Consists of Emu (a component to allow this info to be served up in the monitored application, eg using servlets), Gazelle (a tool for plotting and doing statistics on the monitored applications) and Squirrel (a system for collecting the info from the applications).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "OVN",
+    "meaning": "Ocado Vehicle Number",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "P&D",
+    "meaning": "Pick and Deliver Point \nFor cranes",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "Packital",
+    "meaning": "A large diversion point - a sortation system",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Pallet Conveyor",
+    "meaning": "Automation in Ocado CFCs used to transport pallets from one location to another, typically from an inbound receiving area to a crane.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "PandaSSO",
+    "meaning": "Ocado single sign on solution",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "PBB",
+    "meaning": "Pre Buffer Buffer",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "PBL",
+    "meaning": "Pick By Light \nPicking processes are aided by lights directing attention to stock locations. Also sometimes referred to as PTL - Pick To Light. Handled by an application called Light Gateway, which pretends to be a PLC and accepts mercury messages.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "PCOP",
+    "meaning": "Post Checkout Page",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "PCOP",
+    "meaning": "Principal Contractor",
+    "tag": "Health and Safety",
+    "": ""
+  },
+  {
+    "term": "PD",
+    "meaning": "Principal Designer",
+    "tag": "Health and Safety",
+    "": ""
+  },
+  {
+    "term": "PDC",
+    "meaning": "Pick Data Consumer. Adaptation Layer (Andover) or CFC Dispatch (Hatfield/Dordon) send the service data about what items were actually picked in the CFC for each order/route and where the orders are on the dollies/trailers. We (Delivery Systems) process this in PDC and then the data is used for things like calculating the actual cost of the order, making the data available on the driver's delivery device, generating receipts, etc",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "PDP",
+    "meaning": "Personal Development Plan \nYour learning activities, usually linked with performance reviews",
+    "tag": "Human Resources",
+    "": ""
+  },
+  {
+    "term": "PDP",
+    "meaning": "Pick Data Producer",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "PDS",
+    "meaning": "Platform Data Scientist. See also DS = Data Scientist.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "PE",
+    "meaning": "Production Environment\nGeneric term used to describe infrastructure that runs production systems.",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "PEC",
+    "meaning": "Photo Electric Cell \nUsed to sense the presence of a tote on the conveyor line",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "Penetration",
+    "meaning": "Normally - what proportion of all orders or customers have bought into the product, brand or category being discussed",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "PEP",
+    "meaning": "Pallet Exit Point",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "Personal Shopper",
+    "meaning": "A Personal Shopper is someone who works in a CFC and is responsible for picking and packing our customer's orders",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "PEV",
+    "meaning": "Personal Expense Voucher",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Phoenix",
+    "meaning": "Used both for OSP-style WMS (ie the part of OSP-style CFCs responsible for inventory management), and now also for OSP-style CFCs in general. See also Atmosphere.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Phoenix Core",
+    "meaning": "The central part of the OSP-style WMS. Responsible for a global overview of all inventory and containers in all zones, and issuing tasks to zones.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "PIC",
+    "meaning": "System from Waitrose that allows to know the promotions they are running and cost prices.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Pick",
+    "meaning": "The action of taking an each from a storage location and placing it into a delivery tote. It is a type of Inventory Move.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Pickface",
+    "meaning": "A location where a crane will deposit a container so that its stock can be picked. Also used to describe the products surrounding a pick station",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "PIP",
+    "meaning": "Pallet Infeed Point",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "PIP",
+    "meaning": "Pallet Induct Point (for Cranes)",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "PIP",
+    "meaning": "Performance Improvement Plan",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "PIP/OTR",
+    "meaning": "Pallet Induct Point Other",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "PIR Sensor",
+    "meaning": "Passive Infrared Sensor\nMotion detector for automatic switch off of lights and also used within the intruder alarm units",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "PLC",
+    "meaning": "Programmable Logic Controller \nReal-time industrialized embedded controller. Used to control cranes, conveyors, and other equipment. Communicates to WCS and SCADA. Ocado mainly use PLCs from Siemens in the S7 300 and S7 400 range.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "PM",
+    "meaning": "Planned Maintenance",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "PM",
+    "meaning": "Project Manager",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "PnD",
+    "meaning": "Pick and Drop \nA location where a crane or shuttle can pick up containers (not used for dropping off, despite the name). Sometimes there are also VPnDs (Vertical PnD).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "PO",
+    "meaning": "Purchase Order\nThis is how requests for spend are raised for work required; work cannot be instructed without providing this number; an order placed with a supplier for some stock.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "PO",
+    "meaning": "Product Owner\nAn individual (usually part of the Technology team) who is responsible for one or more of the systems maintained and developed by Ocado Technology.",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "POA",
+    "meaning": "Post Order Advice \nError in purchase order (may item delisted, or order to wrong site, or not delivering today)",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "POA part 1",
+    "meaning": "Order is incorrect because product has been delisted",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "POA part 2",
+    "meaning": "Order is incorrect because it has gone to the wrong chamber of the supplier",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "POA part 3",
+    "meaning": "Automatically updating ROG details when there are layout changes in warehouse (SKU location changes).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "POC",
+    "meaning": "Placed Orders Count",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "POD",
+    "meaning": "Proof Of Delivery",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "POD",
+    "meaning": "Payment On Delivery",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "PPE",
+    "meaning": "Personal Protective Equipment \nItems such as steel toe boots, hi-vis jackets etc. required when visiting or working in hazardous areas.",
+    "tag": "CFC Operations, General Merchandise and Service Delivery",
+    "": ""
+  },
+  {
+    "term": "PPH",
+    "meaning": "Picks Per Hour \nA reporting metric for pickers in the CFC.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "PPT",
+    "meaning": "Pallet Pump Truck / Powered Pallet Truck\nA small fork-lift truck used for moving pallets and dollies around the CFC. Used in the Dispatch and Receiving zones.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "Pre-Cubing",
+    "meaning": "Process owned by the CFC which calculates the number of totes that will be used by an order. This is sent back to the routing system so they can more accurately schedule orders onto routes. See also: Cubing.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Product Slotting (Athena)",
+    "meaning": "The Daemon responsible for deciding the aisles in which to place products. Also a GUI tool for the same. Written in C#",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Profibus",
+    "meaning": "Two wire Master Slave Bus system used to connect field devices to PLCs. Used instead of separately directly wiring devices back to the PLC. Other similar systems include Interbus and AS-I Bus",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Profitero",
+    "meaning": "External company that provides competitor pricing data.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Proximity Reader",
+    "meaning": "The small swipe unit for accessing doors or speed gates that are security protected",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "PS",
+    "meaning": "Personal Shopper\nAn individual who picks and packs a customer's shopping",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "PSB",
+    "meaning": "Conveyor supplier",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "PSD",
+    "meaning": "Product Scoping Document",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "PSP",
+    "meaning": "Payment Service Provider\nThird party company that processes payments transactions",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Pulse",
+    "meaning": "A system for inventory and user management in CFC1&2.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Purchace Order Line",
+    "meaning": "All the products of the same SKU in the same purchase order.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Purge",
+    "meaning": "Removing inventory from the CFC for various reasons, either because it is out of date or has a quality issue or needs to be returned to the supplier or is not the most recent issue of a magazine. This involves Purge Orders and Purge Customers (eg Company Shop, Skip, Food Bank etc). In CFC 1&2 Purge Orders are just like other orders, but with a flag set.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Purge tote",
+    "meaning": "Shelf life expired or beyond Ocado shelf life",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "PUWER",
+    "meaning": "Provision and Use of Work Equipment Regulations",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Query manager",
+    "meaning": "This is a program that can be used to automate outputs from BigQuery. Most commonly used to update instances of reports each day without the need to manually do.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "RACI",
+    "meaning": "Responsible Accountable Consult Inform\nA matrix document that identifies who is Responsible, Accountable, Consulted and Informed regarding an item of work (often project work).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "RAD",
+    "meaning": "Routing And Delivery \nThe operation that manages the process of getting vans and trailers to their destinations and planning which customer orders should go on a van for efficient delivery.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Rainbow",
+    "meaning": "Rainbow is the code name for the development projects which form the Automation of the new OSP. The projects include: Bots, Grid, RT, Pick Stations, Decant Stations, Safety System, Wireless Communication Systems etc...",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Raven",
+    "meaning": "The reporting platform for OSP-style CFCs.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "Raw Events",
+    "meaning": "Data messages as stored in the Data Lake. This is \"unclean\" data, with high granularity, that may be used on their own, but without any guarantees, and they need to be transformed into something more business like before they are useful for reporting purposes.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "RCOM",
+    "meaning": "Rainbow Communication\nOcado system to communicate wirelessly with bots",
+    "tag": "Rainbow, CFC3 & beyond",
+    "": ""
+  },
+  {
+    "term": "RDP",
+    "meaning": "Route Data Producer",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "RDS",
+    "meaning": "Research Data Scientist. See also DS = Data Scientist.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Receiving",
+    "meaning": "The process whereby inventory on lorries from suppliers is created. Most inventory in the freezer is not received within the CFC but at a warehouse called Theale (see Autoreceiving).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Recorded Delivery",
+    "meaning": "For use when a piece of outgoing mail needs to be tracked. Item will be processed as 1st Class mail and recipient is required to sign on delivery.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Replen",
+    "meaning": "The act of replenishing stock - can mean a crane delivering a container to a pickface from a storage location, or a person moving stock from a pickface to a picking location (e.g. array).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Reserve Location",
+    "meaning": "The location/s behind the pickface on Crane aisles where the pickface storage is more than one position deep.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Retail Heads",
+    "meaning": "All of the heads of department within Retail. E.g. Thomas = Head of Marketing and Insight. Also a meeting on Tuesday mornings of this group plus Lawrence",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "RF",
+    "meaning": "A system to manage user processes. It uses a sort of scanner called an RF gun worn by the personal shopper on their wrist. In CFC1&2 it communicates with an application called the RF server using XML over telnet. In OSP-type CFCs, the RF gun runs a web browser and communicates with a web application on the server.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Riddix",
+    "meaning": "Matrix (both horizontal and vertical) racking storage of totes before induct (levels C and D - so far)",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "RMAS",
+    "meaning": "Reporting, MIS, Admin, SCADA\nSoftware suite for Rainbow CFCs.",
+    "tag": "Rainbow, CFC3 & beyond",
+    "": ""
+  },
+  {
+    "term": "RMS",
+    "meaning": "Range Management System\nThe Range Management System is responsible for creating and maintaining the standards of the products sold, creating and maintaining information on suppliers, and providing product information for the Ocado webshop including listing and delisting SKU's supplied by trading partners, including information such as cost price, description, VAT rate etc",
+    "tag": "Grocery Retail, General Merchandise",
+    "": ""
+  },
+  {
+    "term": "RNS",
+    "meaning": "Registered Non Shopped \nAll users who leave the webshop after registration without shopping",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Rocket",
+    "meaning": "Web Service which handles the mobile app requests.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "ROG",
+    "meaning": "Replenishment Ordering Group \n(RMS/Utopia terminology) - a group of products which are ordered together, from the same supplier, to the same CFC.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Route",
+    "meaning": "All the stock that will ultimately end up on one van (even if it is delivered via a lorry to a spoke).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Route A",
+    "meaning": "Direct order and delivery from supplier to Ocado",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Route B",
+    "meaning": "Supplier delivery to Waitrose and then Waitrose delivery to Ocado. Ocado order goes to supplier.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Route C",
+    "meaning": "Supplier delivery to Waitrose and then Waitrose delivery to Ocado. Ocado order goes to Waitrose.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "RP",
+    "meaning": "Resource Planning\nPlanning (formerly known as Resource Planning) sits under the Supply Chain & Planning business stream (which is headed up by director Mark Watson). The team provide the optimal number of Personal Shoppers, LGV drivers and CSTMs required to operate the CFC and deliver all customer orders on each day.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "RS",
+    "meaning": "Routing Systems\nTeam that develops engine that takes orders and decides what vans to put them on and where they go",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "RT",
+    "meaning": "Rainbow Tote: used in Rainbow style CFCs as the storage tote inside the grid",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "RT/DT",
+    "meaning": "Rainbow Tote with a red Delivery Tote inside, these can either contain customer orders or just bags",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "RTE",
+    "meaning": "Ready To Eat",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "RTF",
+    "meaning": "Redundancy and Tote Flow",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "RTV",
+    "meaning": "Return To Vendor \nA location that a crane or conveyor will deposit a container when there is something wrong (profile violation, unreadable barcode, etc).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "RTW",
+    "meaning": "Return to Work\nThe meeting that takes place with your manager on your return to work after a period of absence.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "RTW",
+    "meaning": "Right to Work \nThe documentation required to be presented to an employer to evidence the ongoing right to live and work in the UK",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "RVF",
+    "meaning": "Reverse Flows\nA section of the CFC where totes are processed after returning from a delivery. In RVF totes may be cleaned or repaired, they will then be bagged and sent to ZP.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "SCADA",
+    "meaning": "Supervisory Control and Data Acquisition\nThe fault visualization system used in Ocado CFCs which displays and log faults and errors detected by PLCs controlling the automation. System used in CFC1 and CFC2 is also referred as Ocean SCADA and system for OSP-like CFCs is referred as Hawk (or Hawk SCADA). Hawk is a web app, whereas CFC1&2 Scada is handled by a desktop app.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "SCALP",
+    "meaning": "A control protocol used to communicate between the WCS and PLCs. Used for legacy systems in CFC1, replaced by the Mercury protocol for newer systems.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Scanning Rig",
+    "meaning": "Used to scan the barcodes on all the FTs and trolley in the trolley.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Scratch",
+    "meaning": "Discarding of a particular item in a customer's order - e.g no stock available (alternative might be supplied)",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Scribe",
+    "meaning": "Scribe is a webshop content management system which is used to set up various aspects of the webshop",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "SCS",
+    "meaning": "Supply Chain Systems",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "SCT",
+    "meaning": "Supply Chain Team",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "SCT CFC",
+    "meaning": "Supply Chain Team based in Inbound",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "SD",
+    "meaning": "Service Delivery\nService Delivery is the area of our business which is responsible for the physical aspects of getting the order to the customer, whilst delivering exceptional customer service both on the doorstep through our CSTMs and remotely through our Contact Centre teams.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Search term Redirects",
+    "meaning": "Some search terms will automatically link customers to specific part of the website that is outside of the normal search results.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Search terms",
+    "meaning": "The word or phrase that a customer enters into the search bar on the website when they are looking for a particular product.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Selligent",
+    "meaning": "Software used to send emails and attach incentives (e.g. vouchers) to customers",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Sentinel",
+    "meaning": "A safety system intended to stop the waste conveyor / baler machine to prevent injury if a worker gets too close",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "SFM (Supplier Funded Media)",
+    "meaning": "Advertising on the Ocado.com website that is sold to suppliers. This is usually in the form of banners.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Shipcase Id",
+    "meaning": "Another way of saying SKU, that refers specifically to the product number and is used interchangeably with SKU in some of the data tables.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Shipment",
+    "meaning": "All the routes delivered in the same lorry, or in the case of trailer sets, the same Ambient/Chill pair.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Shoe box",
+    "meaning": "A very small storage tote used for small SKUs in CFC1.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Shoe Sorter",
+    "meaning": "A machine that sorts completed customer totes towards the correct deck of lanes in the Tote Buffer. Automation which sorts totes to multiple conveyors outfeeds at high throughputs. In Ocado CFCs they are used to sort completed totes coming from zone picking (via two conveyors) to the correct buffer decks (via 4 conveyors). There is one in CFC1 and two in CFC2.\nSee video http://www.youtube.com/watch?v=Szxgy0qSwlw",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "Shorted",
+    "meaning": "This is when we are unable to deliver a particular item on a customer’s order.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Shuttle",
+    "meaning": "Transportation device for a single tote used to store and retrieve in an OSR system. There is one shuttle per storage level which is fed via lift at the front of the aisle. Also used for Pallets in CFC2.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "SKU",
+    "meaning": "Stock Keeping Unit (pronounced \"skew\") \nA unique identifier for each distinct product. Stock Keeping Unit - an individual type of product (represented by a standard code and distinguishes product types, as well as versions of a product, for example when a product has a Christmas label). SKU numbers can be searched on the Ocado website and will return the product that matches that number.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "SLA",
+    "meaning": "Service Level Agreement",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "SM",
+    "meaning": "Section Manager",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Small Panda",
+    "meaning": "PandaSSO solution deployed on atmosphere and/or inside CFC’s for retailers.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Smart pass",
+    "meaning": "Ocado’s delivery saver scheme. Also gives customers discount on certain products and entry into certain Marketing initiatives.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "SMT",
+    "meaning": "Senior Management Team",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "SOC",
+    "meaning": "Service Organisation Controls - system controls that meet the criteria outlined in the Trust Services Principles for Security, Availability, Processing Integrity, Confidentiality and Privacy",
+    "tag": "Internal Audit & Risk",
+    "": ""
+  },
+  {
+    "term": "Solus",
+    "meaning": "Standalone email on one topic. Eg. a Wine Solus email.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "SPA",
+    "meaning": "Safety Pass Alliance",
+    "tag": "Health and Safety",
+    "": ""
+  },
+  {
+    "term": "Special Delivery",
+    "meaning": "For use when a piece of outgoing mail needs to be tracked and guaranteed for next day delivery. The recipient is required to sign on delivery.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Spend stretch",
+    "meaning": "A Marketing campaign where a customer is given a reward if they place an order above their average basket.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "SPH",
+    "meaning": "Standard Productive Hour\nThe amount of work expected to be done in an hour (dependent on the type of activity).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "SPOF",
+    "meaning": "Single Point Of Failure",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Spoke",
+    "meaning": "A spoke site is a place where we transport customer orders to so that they can be delivered locally direct to the customer's door. We currently have 20 spoke sites across the country.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "Sprint",
+    "meaning": "A period of time that technology teams work in. This is part of the Agileway of working.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "SPT",
+    "meaning": "Short Pallet Truck",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "SPUR lanes",
+    "meaning": "Lanes of conveyor that bring completed routes to the person that is going to put the totes with customers orders into the frames",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "SQL",
+    "meaning": "Structured Query Language \nFor writing database queries",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "SS",
+    "meaning": "Shoe Sorter",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "SSC",
+    "meaning": "Safety Steering Committee",
+    "tag": "Health and Safety",
+    "": ""
+  },
+  {
+    "term": "SSIP",
+    "meaning": "Safety Scheme in Procurement",
+    "tag": "Health and Safety",
+    "": ""
+  },
+  {
+    "term": "SSO",
+    "meaning": "Single Sign-On",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "SSOW",
+    "meaning": "Safe Systems of Work",
+    "tag": "CFC Operations, General Merchandise and Service Delivery",
+    "": ""
+  },
+  {
+    "term": "SSTM",
+    "meaning": "Support Services Team Manager (specific to CFC Hatfield)",
+    "tag": "CFC Hatfield",
+    "": ""
+  },
+  {
+    "term": "ST",
+    "meaning": "Storage Tote\nA tote used to hold inbound stock in a crane system.  Storage totes are yellow and green.",
+    "tag": "CFC Operations and Service Delivery",
+    "": ""
+  },
+  {
+    "term": "Standard Code",
+    "meaning": "The Ocado PLC code library used to control the automation in Ocado CFCs.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "STAT",
+    "meaning": "Smaller Than A Tote\nItems that will fit into a DT, in the context of delivery via courier rather than Ocado van. See BTAT.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Step 7",
+    "meaning": "The Siemens software package used for programming PLCs.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "STL",
+    "meaning": "Statement List\nOne of the programming formats used when programming PLCs via Step7. Others include Ladder Logic, Function Block and SCL",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "STM (Senior Trading Manager)",
+    "meaning": "Senior Trading Managers are responsible for managing a group of buyers and product categories.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Storage Location",
+    "meaning": "A location within a Crane aisle used for storing product for which there is no available pickface location. Once a pickface location becomes available (usually when all product already there has been picked) the crane will be asked to carry out a Replen move.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Substitution",
+    "meaning": "Subs are products that were substituted for the product a customer actually ordered. This is often done when the ordered product goes out of stock. The sub is supposed to be an equivalent product that we think the customer would have chosen had they known their ordered product was out of stock.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Supply Chain",
+    "meaning": "The part of Ocado that manages Appointments and POs.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Tableau",
+    "meaning": "A powerful data visualisation and reporting tool, used by the Ocado retail business to access their data in the Cloud Data Platform.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "tag swap",
+    "meaning": "Partial decanting of a pallet - usually of a slow moving SKU",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "TB / TBF",
+    "meaning": "Tote Buffer\na section of the CFC where delivery totes (DT and FT) are sent when they contain all ordered items. From the TBF, containers will be loaded to vans/trailers.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "TDP",
+    "meaning": "Trailer Data Producer",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "TGA",
+    "meaning": "Tote Gripper Assembly(?)\nPart of the bot hoisting down to pickup/drop off storage containers.",
+    "tag": "Rainbow, CFC3 & beyond",
+    "": ""
+  },
+  {
+    "term": "TGW",
+    "meaning": "Conveyor supplier",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "The Ocado Council",
+    "meaning": "The Ocado Council works constructively on behalf of all employees; it was established in February 2010 and allows every single person at Ocado formal representation through an elected employee committee. Find out more by clicking on the link on the left.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "The Ocado Foundation",
+    "meaning": "The Ocado Foundation is the not-for-profit bit of Ocado and the focus for all our charitable and fundraising activity. Find out more by clicking the link on the left.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "The Ocado Way",
+    "meaning": "The Ocado Way describes our 'people' values and what is expected of you in your role. It also describes the expectations for more senior roles that you may want to develop into. View the document by clicking on the link on the left.",
+    "tag": "Ocado",
+    "": ""
+  },
+  {
+    "term": "THOR",
+    "meaning": "The Helpful Ocado Recommender\nA recommendations service maintained by the backend team serving recommendations based on where the customer is on the site.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "THUG",
+    "meaning": "Testing Harness and GUI \nA PLC emulator. It also comes with a Swing GUI that can be run separately that either shows what the current status of the system, or replays logs from scenario tests. See also MiniM. Different from Simulation (which also mocks out the WCS and only applies to Outbound Zonepick).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "TIM",
+    "meaning": "Tote In Machine\nMachine to place DTs into rainbow container ready to be placed in the grid.",
+    "tag": "Rainbow, CFC3 & beyond",
+    "": ""
+  },
+  {
+    "term": "Tip & Tally",
+    "meaning": "Chill unload area",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "TL",
+    "meaning": "Team Leader",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "TLA",
+    "meaning": "Three Letter Acronym",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "TM",
+    "meaning": "Team Manager",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "TOM",
+    "meaning": "Tote Out Machines - they are used to remove customer totes (DT/FTs - the same as in CFC 1 & 2) out of Rainbow Totes (RTs or \"bins\") that are the slightly large containers that are stacked up to form the hive and can be carried by the bots. Bins get dropped off at a TOM, the DT is removed and dropped straight into the spur lane, and the empty bin is picked up by the bot and taken away.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Top offers",
+    "meaning": "A weekly email to the whole Ocado customer base detailing this week’s best promotions.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Top tab",
+    "meaning": "The tabs along the top of the Ocado.com website that link to specific parts of the website. These change as new events come and go. ‘Recipes’ and ‘Smart Pass’ would be examples.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Tote",
+    "meaning": "A tote is a plastic box or crate used in our CFCs to transport goods from one place to another. Red totes are delivery totes carrying chilled or ambient goods. Blue totes are delivery totes carrying frozen goods to up to three customers. Yellow and green totes are storage totes.",
+    "tag": "CFC Operations and Service Delivery",
+    "": ""
+  },
+  {
+    "term": "Tote Buffer",
+    "meaning": "Sometimes referred to as TB. Consolidates totes from all areas into routes. Also used to refer to the place where delivery totes are accumulated ready for dispatch",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "Tote Conveyor",
+    "meaning": "Automation in Ocado CFCs used to transport totes from one location to another, Ocado has used several different suppliers for this over the years including Knapp, CSI, TGW.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "TP",
+    "meaning": "Trolley Pick \nA section of the CFC where picking occurs by taking a trolley of totes around storage locations in a similar way to supermarket shopping - also refers to the action of this type of picking. Low efficiency but easy and flexible to set up and run. Once common, this now only occurs in the freezer.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "TPH",
+    "meaning": "Totes per Hour\nMeasure of throughput",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "TPM",
+    "meaning": "Tesco Price Match",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "TPM",
+    "meaning": "Tote Push Message",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "TPM",
+    "meaning": "Tesco Price Match",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Trailer Sets",
+    "meaning": "When the dollies for routes sent to a spoke are split into ambient and chill halves and the ambients loaded onto an Ambient Trailer and vice versa. Typically the first two dollies on the chill side match up with the first two dollies on the ambient side etc.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Tray",
+    "meaning": "A storage container with very low sides - cardboard collars are often used to contain products in them. In CFC1 only.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Trayloader",
+    "meaning": "The automated system for handling Trays which comprises of conveyors, lifts and cranes in the Ambient area of CFC1.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Trigger",
+    "meaning": "Suppliers support promotions, the amount of money they give us per promotional item sold is a trigger. We normally state margin including triggers.",
+    "tag": "Retail",
+    "": ""
+  },
+  {
+    "term": "Truck and Trailer",
+    "meaning": "Relates to LGV (large good vehicles) or lorries; the truck is the power unit at the front, trailer is the bit at the back",
+    "tag": "Service Delivery",
+    "": ""
+  },
+  {
+    "term": "Trunking",
+    "meaning": "The process of moving goods from CFC to a spoke",
+    "tag": "Service Delivery and Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "Turnkey",
+    "meaning": "A complete solution built and delivered by a contractor (rather than Ocado acting as integrator and / or supplying elements of the solution).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "TY / LY / NY / TW",
+    "meaning": "This Year / Last Year / Next Year / This Week - used in reporting to refer to time periods relative to the date of the report.",
+    "tag": "Retail",
+    "": ""
+  },
+  {
+    "term": "U1",
+    "meaning": "The portable device used in vans - it contains the routing information for the van's deliveries and a sat nav service.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "U1 / M1",
+    "meaning": "The personal device in each delivery van that provides delivery information and a SatNav",
+    "tag": "Service Delivery",
+    "": ""
+  },
+  {
+    "term": "UACC",
+    "meaning": "Universal Accumulation Conveyor Control",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "UAT",
+    "meaning": "User Acceptance Testing\nSystem testing that is done before it goes live",
+    "tag": "Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "ULP",
+    "meaning": "Universal Landing Page",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "UP",
+    "meaning": "Unopened Pack \nMSC package",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "UPH",
+    "meaning": "Units (eaches) per Hour\nA measurement of the rate at which someone does a particular task, like picking (PPH), frameloading, MSC manufacture or Receiving.\nMeasure of throughput.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "UPS",
+    "meaning": "Uninterruptible Power Supply\nUsed to maintain power to key components in Ocado CFCs in the event of power loss. Typical examples are PLCs and Network Switches.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "UR",
+    "meaning": "User Requirement \nDocument which highlights Ocado's expectations from a supplier",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "USDAW",
+    "meaning": "Union of Shop, Distributive and Allied Workers\nSince 2011 Ocado has had a voluntary union recognition agreement with USDAW in respect of personal shoppers, CSTMs and LGV drivers.",
+    "tag": "CFC Operations, General Merchandise and Service Delivery",
+    "": ""
+  },
+  {
+    "term": "Utopia",
+    "meaning": "The system that supports the Supply Chain with forecasting and ordering of stock, tracking, pack size, order quantities, Inbound scheduling",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "VB",
+    "meaning": "Vertical Buffer\nPart of peripheral to allow multiple containers' vertical accumulation to allow bots to pick them up from lower depth.",
+    "tag": "Rainbow, CFC3 & beyond",
+    "": ""
+  },
+  {
+    "term": "VBV",
+    "meaning": "Verified by Visa\nVisa’s brand name for 3D Secure.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "VDRC",
+    "meaning": "V Driven Rollet Conveyor",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Vera",
+    "meaning": "Morrisons Contact Centre system",
+    "tag": "Service Delivery",
+    "": ""
+  },
+  {
+    "term": "VFR",
+    "meaning": "Vehicle Flight Recorder\nThis is a device in the van that returns detailed GPS data. Also collects temperature data. Can be used to retrieve other van data such as acceleration, braking g, and the like.",
+    "tag": "Service Delivery",
+    "": ""
+  },
+  {
+    "term": "VIP",
+    "meaning": "Virtual IP Address\nUsually constructed using 2 characters for the environment (e.g. ‘pe’ for ‘production’), 3 characters for the service, (e.g. odn for Odin), and 3 numbers so we can have many instances of a service. e.g. peodn001. Each VIP machine usually also has a user on that host with the same name. In CFC2 the first character denotes the type of application (eg w for wms, i for inbound, o for outbound) and the penultimate one denotes the cfc (eg 2 for CFC2). Only for CFC1&2 - not for OSP.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "VM",
+    "meaning": "Virtual Machine\nUses a similar naming convention but with 6 letters and 2 digits, eg pe for production + dd for dordon + ka for cassandra + 01 for instance number.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "VNA",
+    "meaning": "Very Narrow Aisle\nPallet racking serviced by a specialised PPT due to the narrower spacing.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "Void",
+    "meaning": "A section of the CFC containing pallet racks used for longer term storage than cranes due to the longer life or slower movement of the products. Was originally a void as we paid less council tax if this part of the warehouse didn't have an actual floor, therefore it just had a dirt floor. Now Void only refers to a business process and not an area (the totebuffer and OSR2 now occupy this area).",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "vPnD",
+    "meaning": "Virtual/Vertical PnD \nA location that is shared by the lift and a crane, so the lift can drop the container and the shuttle can pick it from the same location, also there are outgoing vPnDs where the crane can drop the container and the lift can pick it.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "VW ATP",
+    "meaning": "Velocity Weighted ATP",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Wave",
+    "meaning": "A group of totes (there are 42 waves per day)",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "WCS",
+    "meaning": "Warehouse Control System \nAn application sitting between PLCs and higher level systems (Atlas, WMS), providing an abstraction of protocols used for communication with the hardware. If the systems are thought of like a human being, then the PLC controls the heartbeat and movement of the muscles, the WCS knows how to walk from A to B, Atlas (or WMS) knows why to go to B.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "Webshop",
+    "meaning": "The customer-facing website. Any one of: ocado.com, fetch.co.uk, sizzle.co.uk or groceries.morrisons.com.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "WEL",
+    "meaning": "Wide Edge Leading. Some departments use this terminlogy to describe Rainbow Decant stations to distinguish between the different styles and orientation of the travelling totes",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "WMO",
+    "meaning": "Where’s My Order\nAn order delivery estimation shown on the Webshop, this hits the delivery webservice (maintained by delivery systems) which estimates the predicted delivery time for an order based on events and GPS.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "WMS",
+    "meaning": "Warehouse Management Systems\nThe software systems and applications which control the warehouse.",
+    "tag": "CFC Operations, Logistics Development and Ocado Technology",
+    "": ""
+  },
+  {
+    "term": "WS",
+    "meaning": "Web Service",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "WTR",
+    "meaning": "Waitrose",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "XT",
+    "meaning": "External Totes",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "YoY / WoW",
+    "meaning": "Year on year / Week on week.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "YTD (Year to date)",
+    "meaning": "Identifies a number that covers the start of the Ocado year to the current date.",
+    "tag": "",
+    "": ""
+  },
+  {
+    "term": "ZP",
+    "meaning": "Zone Pick \nA section of the CFC where items from an order are placed into one or more DTs. The process is called picking and is executed by a personal shopper who has a set of products around a station to pick from.",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "ZPC",
+    "meaning": "Zone Pick Conveyor",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "ZPC",
+    "meaning": "Zero Pressure Conveyor",
+    "tag": "CFC Operations",
+    "": ""
+  },
+  {
+    "term": "ZPG",
+    "meaning": "Zone Pick GUI\nA GUI used at a zone pick station",
+    "tag": "CFC Operations",
+    "": ""
+  }
+]
