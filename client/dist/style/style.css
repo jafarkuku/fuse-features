@@ -3,6 +3,12 @@ h1, p, ul{
   padding: 0;
 }
 
+iframe.ocadosaurus-iframe {
+    width: 79%;
+    height: 390px;
+    border: solid 1px #c6c5c6;
+}
+
 #search-container {
     width: 100%;
     font-family: helvetica, open-sans;
